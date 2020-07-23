@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": -1.4,
+    "editor.fontSize": 12,
+    "rust-analyzer.cargo.allFeatures": true,
+    "files.restoreUndoStack": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.updates.channel": "nightly",
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "editor.formatOnSave": true,
+    "rust-analyzer.checkOnSave.command": "clippy"
+}
