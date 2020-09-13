@@ -1,21 +1,72 @@
 {
     "workbench.colorTheme": "Dracula",
-    "window.zoomLevel": -1.4,
-    "editor.fontSize": 12,
+    "window.zoomLevel": -2,
     "rust-analyzer.cargo.allFeatures": true,
     "files.restoreUndoStack": false,
     "rust-analyzer.inlayHints.chainingHints": false,
     "rust-analyzer.procMacro.enable": true,
-    "rust-analyzer.updates.channel": "nightly",
-    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
-    "editor.formatOnSave": true,
     "rust-analyzer.checkOnSave.command": "clippy",
-    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.fontSize": 12,
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
-    }
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "go.formatTool": "goimports",
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    "rust-analyzer.updates.channel": "nightly",
+    "editor.formatOnSave": true,
+    "rust-analyzer.lens.debug": false,
+    "editor.tokenColorCustomizations": {
+        "[Dracula]": {
+            "textMateRules": [
+                {
+                    "name": "mutable",
+                    "scope": "markup.underline",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                }
+            ]
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cSpell.userWords": [
+        "ansi",
+        "authed",
+        "codeblock",
+        "codeblock ansi",
+        "deserializable",
+        "deserialization",
+        "destructure",
+        "eventnumid",
+        "homeserver",
+        "homeservers",
+        "idempotency",
+        "localpart",
+        "newtype",
+        "peekable",
+        "pushkey",
+        "pushkeys",
+        "reqwest",
+        "ruleset",
+        "ruma",
+        "segs",
+        "serde",
+        "serde's",
+        "serializable",
+        "struct",
+        "structs",
+        "tempdir",
+        "url"
+    ],
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "terminal.integrated.fontWeight": "500",
+    "C_Cpp.updateChannel": "Insiders",
+    // "editor.fontWeight": "500"
 }
