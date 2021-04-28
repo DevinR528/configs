@@ -122,12 +122,18 @@ export PATH=$PATH:/usr/local/go/bin
 # PYTHON
 export PATH=$PATH:~/.local/bin
 
+# RUST MIRI
+export MIRI_SYSROOT=/home/devinr/.cache/miri/HOST
+
 #PERL
 PATH="/home/devinr/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/devinr/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/devinr/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/devinr/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/devinr/perl5"; export PERL_MM_OPT;
+
+# export LD_LIBRARY_PATH=/home/devinr/aprog/school/dec-base-calc:$LD_LIBRARY_PATH
+
 
 # hack to open in fish this must be last
 fish

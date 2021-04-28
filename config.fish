@@ -10,6 +10,11 @@ alias ls='exa -l'
 alias ll='exa -la'
 alias lt='exa -T'
 
+# misc aliases
+alias du='dutree -s'
+alias ps='procs'
+alias top='btm'
+
 # PYTHON3 alias
 alias python='python3.8'
 alias pip=pip3
